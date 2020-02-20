@@ -1,0 +1,52 @@
+### Sources
+client side: sources.yaml
+---
+- default: us.alibabacloud.com/...
+  mirrors:
+  - blob.azure.com/...
+  support:
+  - amiga
+- fantasticgame: myhomebrews.com/...
+  support:
+  - amiga
+  
+server side: repo.yaml
+---
+amiga: myfolder/amiga.txz
+
+cli: 
+retrovm sources add 'default' 'us.alibabacloud.com/...' [--mirrors '...' '...' --support 'amiga']
+retrovm sources remove 'default' [--support amiga]
+retrovm sources reset --support all
+retrovm sources update
+
+### Supports
+client side: 
+emulators.yaml
+---
+- dolphin:
+  support: gamecube, wii
+  cmd: 'dolphin'
+  
+supports.yaml
+---
+- gamecube:
+  default: 'dolphin'
+  
+code: 
+si un support n'est pas dans supports.yaml, chercher si il existe un emu par défaut en classe c#,
+si c'est le cas proposer d'installer et de configurer
+
+cli:
+retrovm support add 'colecovision'
+retrovm emulator add 'colecoemu' --cmd 'colecoemu' --support 'colecovision'
+retrovm support set-default-emulator 'colecoemu'
+
+### Games
+server side:
+nes.yaml.txz
+- name: uri
+
+cli:
+retrovm search mario [--support nes]
+retrovm launch mario [--support nes]
