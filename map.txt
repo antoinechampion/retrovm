@@ -1,13 +1,16 @@
 ### Sources
 client side: sources.yaml
 ---
-- default: us.alibabacloud.com/...
+- name: default
   mirrors:
+  - us.alibabacloud.com/...
   - blob.azure.com/...
-  support:
+  supports:
   - amiga
-- fantasticgame: myhomebrews.com/...
-  support:
+- name: fantasticgame
+  mirrors: 
+  - myhomebrews.com/...
+  supports:
   - amiga
   
 server side: repo.yaml
