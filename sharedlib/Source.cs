@@ -12,14 +12,14 @@ namespace RetroVm.Core
     {
         public string Name { get; set; }
         public List<string> Mirrors { get; set; }
-        public List<string> Supports { get; set; }
+        public List<string> Platforms { get; set; }
 
         /// <inheritdoc />
         public void GetObjectData(SerializationInfo info, StreamingContext context)
         {
             info.AddValue("name", Name);
             info.AddValue("mirrors", Mirrors);
-            info.AddValue("supports", Name);
+            info.AddValue("platforms", Platforms);
         }
     }
 }

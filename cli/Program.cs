@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using RetroVm.Core;
 
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+
 namespace RetroVm.Cli
 {
     class Program
@@ -14,13 +17,13 @@ namespace RetroVm.Cli
                 {
                     Name = "default",
                     Mirrors = new List<string> { "alibaba.com/...", "azure.com/..."},
-                    Supports = new List<string> {"atari st", "amiga"}
+                    Platforms = new List<string> {"atari st", "amiga"}
                 },
                 new Source
                 {
                     Name = "homebrew-repo",
                     Mirrors = new List<string> {"mywebsite.com/..."},
-                    Supports = new List<string> {"amiga"}
+                    Platforms = new List<string> {"amiga"}
                 }
             };
             YamlConfigurationFile.ToYaml("test.yml", l);
