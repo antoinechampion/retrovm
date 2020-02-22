@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Dynamic;
 using System.IO;
+using System.Linq;
 using System.Net;
+using System.Text;
 using System.Text.RegularExpressions;
 using System.Web;
 using HtmlAgilityPack;
@@ -11,15 +14,16 @@ using RetroVm.Core;
 
 namespace RetroVm.Server
 {
-    internal class GamulatorAggregator : Aggregator
+    internal sealed class GamulatorAggregator : Aggregator
     {
-        public GamulatorAggregator()
+        public GamulatorAggregator(string outPath)
         : base(
             "https://www.gamulator.com", 
             new Dictionary<string, string>
             {
                 { "nes", "roms/nes" }
-            }
+            },
+            outPath
         )
         { }
 
@@ -35,7 +39,7 @@ namespace RetroVm.Server
         {
             var pattern = $@"({BaseUri}/.*currentpage=)(\d+)";
             var regexResults = Regex.Match(currentPage, pattern);
-            var pageNum = int.Parse(regexResults.Groups[2].Value);
+            var pageNum = Int32.Parse(regexResults.Groups[2].Value);
             return $"{regexResults.Groups[1].Value}{pageNum + 1}";
         }
 
@@ -43,9 +47,11 @@ namespace RetroVm.Server
         {
             var currentGame = new Game();
 
-            currentGame.Name =
+            var gameName =
                 node.SelectSingleNode(".//h5[@class='card-title']")
-                    .InnerText;
+                    .InnerText
+                    .Trim();
+            currentGame.Name = RomTagCollection.RemoveTagsFromString(gameName);
 
             var downloadPageUri =
                 BaseUri +
@@ -64,29 +70,27 @@ namespace RetroVm.Server
                     dlNode.SelectSingleNode("//div[@class='margini']//picture//img")
                         .Attributes["src"]
                         .Value;
-                using var webClient = new WebClient();
-                var imageBytes = webClient.DownloadData($"{BaseUri}{imgUri}");
-                currentGame.ThumbnailBytes = Convert.ToBase64String(imageBytes);
+                imgUri = imgUri.Replace(" ", "%");
+                currentGame.ThumbnailUri = $"https://www.gamulator.com{imgUri}";
             }
             catch (NodeNotFoundException)
             {
-                currentGame.ThumbnailBytes = null;
+                currentGame.ThumbnailUri = null;
             }
 
             var fileName =
                 dlNode.SelectSingleNode("//td[text()[contains(., 'zip')]]")
                     .InnerText;
-            currentGame.DownloadUri =
-                $"https://downloads.gamulator.com/roms/{fileName}";
-            if (!RequestHead(currentGame.DownloadUri).Result)
+            RomTagCollection.TryAssignTags(currentGame, fileName);
+
+            var dlUri =
+                $"https://downloads.gamulator.com/roms/{fileName.Replace(" ", "%20")}";
+            if (!RequestHead(dlUri).Result)
             {
                 throw new FileNotFoundException();
             }
 
-            var location =
-                dlNode.SelectSingleNode("//td[@itemprop='gameLocation']")
-                    .InnerText;
-            currentGame.Zone = TryParseZone(location) ?? "jp"; // Infer Japan
+            currentGame.DownloadUri = dlUri;
 
             return currentGame;
         }

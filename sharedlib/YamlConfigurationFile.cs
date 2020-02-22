@@ -24,7 +24,7 @@ namespace RetroVm.Core
                             File.ReadAllText(path)
                         );
             }
-            catch (System.IO.IOException ex)
+            catch (IOException ex)
             {
                 throw new ConfigurationDeserializationException(
                     $"Can't load configuration file: {path}", ex);
@@ -37,26 +37,28 @@ namespace RetroVm.Core
             return t;
         }
 
-        public static void ToYaml<T>(string path, IEnumerable<T> content) where T : ISerializable
+        public static void ToYaml<T>(string path, IEnumerable<T> content, bool append = true) 
+            where T : ISerializable
         {
             try
             {
+                var yaml = new SerializerBuilder()
+                    .WithNamingConvention(CamelCaseNamingConvention.Instance)
+                    .Build()
+                    .Serialize(content);
                 CreateParents(path);
-                File.WriteAllText(
-                    path,
-                    new SerializerBuilder()
-                        .WithNamingConvention(CamelCaseNamingConvention.Instance)
-                        .Build()
-                        .Serialize(content)
-                );
+                if (append && File.Exists(path))
+                    File.AppendAllText(path, yaml);
+                else
+                    File.WriteAllText(path, yaml);
             }
-            catch (System.IO.IOException ex)
+            catch (IOException ex)
             {
                 throw new ConfigurationDeserializationException(
                     $"Can't write configuration file: {path}", ex);
             }
         }
-
+        
         private static void CreateParents(string path)
         {
             var filePath = Directory.GetParent(path).ToString();

@@ -3,8 +3,9 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>RetroVm.Server</RootNamespace>
+    <RootNamespace>Retroverse</RootNamespace>
     <LangVersion>8</LangVersion>
+    <AssemblyName>retroverse</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

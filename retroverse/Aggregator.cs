@@ -15,34 +15,29 @@ namespace RetroVm.Server
         protected string BaseUri { get; set; }
         protected Dictionary<string, string> Platforms { get; set; }
 
-        protected Aggregator(string baseUri, Dictionary<string, string> platforms)
-        {
-            BaseUri = baseUri;
-            Platforms = platforms;
-        }
+        private readonly string _outFilePath; 
 
         protected abstract string GetNextPageUri(string currentPage);
         protected abstract IEnumerable<Game> GetGamesOnPage(string currentPageHtml);
         protected abstract string GetUriForPlatform(string platformName);
 
-        public async Task<List<Game>> AggregateAllGames(ILogger logger)
+        protected Aggregator(string baseUri, Dictionary<string, string> platforms, string outFilePath)
         {
-            var games = new List<Game>();
-
-            foreach (var (platformName, platformPattern) in Platforms)
-            {
-                games.AddRange(
-                    await AggregateAllGamesOnPlatform(platformName, logger)
-                );
-            }
-
-            return games;
+            BaseUri = baseUri;
+            Platforms = platforms;
+            _outFilePath = outFilePath;
         }
 
-        public async Task<List<Game>> AggregateAllGamesOnPlatform(string platformName, ILogger logger)
+        public async Task AggregateAllGames(ILogger logger)
         {
-            var games = new List<Game>();
+            foreach (var (platformName, _) in Platforms)
+            {
+                await AggregateAllGamesOnPlatform(platformName, logger);
+            }
+        }
 
+        public async Task AggregateAllGamesOnPlatform(string platformName, ILogger logger)
+        {
             var uri = GetUriForPlatform(platformName);
             var currentPageHtml = await RequestGet(uri);
 
@@ -57,52 +52,26 @@ namespace RetroVm.Server
                         })
                         .ToList();
                 LogGamesInfo(logger, newGames);
-                games.AddRange(newGames);
+                YamlConfigurationFile.ToYaml(_outFilePath, newGames, append:true);
+
                 uri = GetNextPageUri(uri);
                 currentPageHtml = await RequestGet(uri);
             } while (currentPageHtml != null);
-
-            return games;
         }
 
         protected void LogGamesInfo(ILogger logger, List<Game> games)
         {
             var logStr = $"GET {BaseUri}\n";
+            var maxLenName = games.Max(o => o.Name.Length);
             foreach (var game in games)
             {
-                logStr +=
-                    $"{game.Platform?.ToUpper()}\t" +
-                    $"{(game.Zone ?? "no zone found").ToUpper()}\t" +
-                    $"{game.Name}\n";
+                logStr += string.Format("|{0,10}|{1,"+maxLenName+"}|{2,20}\n",
+                    game.Platform?.ToUpper(),
+                    game.Name,
+                    string.Join("", game.Tags));
             }
 
             logger.LogInformation(logStr);
-        }
-
-        public static string TryParseZone(string rawZoneText)
-        {
-            if ("europe,eu,pal,european"
-                .Split(",")
-                .Contains(rawZoneText, StringComparer.InvariantCultureIgnoreCase))
-            {
-                return "eu";
-            }
-
-            if (("usa,us,ntsc,america,united states,american")
-                .Split(",")
-                .Contains(rawZoneText, StringComparer.InvariantCultureIgnoreCase))
-            {
-                return "us";
-            }
-
-            if ("japan,jp,jap,japanese"
-                .Split(",")
-                .Contains(rawZoneText, StringComparer.InvariantCultureIgnoreCase))
-            {
-                return "jp";
-            }
-
-            return null;
         }
 
         protected async Task<string> RequestGet(string uri)

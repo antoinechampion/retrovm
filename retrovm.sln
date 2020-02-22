@@ -10,7 +10,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cli", "cli\cli.csproj", "{B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sharedlib", "sharedlib\sharedlib.csproj", "{D53F9A13-8167-4873-B9D4-D6F1A62B422B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "server", "server\server.csproj", "{C90A6B6B-E3AB-498F-B927-A0D46E45AECF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "retroverse", "retroverse\retroverse.csproj", "{C90A6B6B-E3AB-498F-B927-A0D46E45AECF}"
 	ProjectSection(ProjectDependencies) = postProject
 		{D53F9A13-8167-4873-B9D4-D6F1A62B422B} = {D53F9A13-8167-4873-B9D4-D6F1A62B422B}
 	EndProjectSection

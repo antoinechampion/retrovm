@@ -1,0 +1,966 @@
+- name: Super Mario Bros. 3 (EU)
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(Europe).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3-nes-cover.jpg
+  platform: nes
+  tags: 
+- name: Super Mario
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%20(Japan,%20USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-super-mario-bros.jpg
+  platform: nes
+  tags: 
+- name: Super Mario World
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20World.zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-world-nes.jpg
+  platform: nes
+  tags: 
+- name: 'Super Mario Bros. 3 '
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(Europe).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3-nes-cover.jpg
+  platform: nes
+  tags:
+  - (Europe)
+- name: Super Mario
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%20(Japan,%20USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-super-mario-bros.jpg
+  platform: nes
+  tags: []
+- name: The Legend of Zelda
+  downloadUri: https://downloads.gamulator.com/roms/Legend%20of%20Zelda,%20The%20(USA)%20(1).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-the-legend-of-zelda.jpg
+  platform: nes
+  tags:
+  - (1)
+  - (USA)
+- name: Super Mario Bros. 3
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Punch-Out!!
+  downloadUri: https://downloads.gamulator.com/roms/Mike%20Tyson's%20Punch-Out!!%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-mike-tysons-punch-out.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Super Mario Bros 3
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Super Mario World
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20World.zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-world-nes.jpg
+  platform: nes
+  tags: []
+- name: Kirby's Adventure
+  downloadUri: https://downloads.gamulator.com/roms/Kirby's%20Adventure%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/kirby's-adventure-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Contra
+  downloadUri: https://downloads.gamulator.com/roms/Contra%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-contra-thumb.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Super 700-in-1
+  downloadUri: https://downloads.gamulator.com/roms/Super%20700-in-1%20[!].zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-700-in-1-nes.jpg
+  platform: nes
+  tags:
+  - '[!]'
+- name: '1200-in-1 '
+  downloadUri: https://downloads.gamulator.com/roms/1200-in-1%20(J)%20[p1].zip
+  thumbnailUri: https://www.gamulator.com/img/roms/1200-in-1-nes.jpg
+  platform: nes
+  tags:
+  - '[p1]'
+  - (J)
+- name: Super Mario 2
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%202%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-super-mario-bros-2.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Pac - Man
+  downloadUri: https://downloads.gamulator.com/roms/Pac-Man%20(USA)%20(Namco).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/pac-man-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Tetris
+  downloadUri: https://downloads.gamulator.com/roms/Tetris%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-tetris.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Castlevania
+  downloadUri: https://downloads.gamulator.com/roms/Castlevania%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-castlevania.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Zelda 2
+  downloadUri: https://downloads.gamulator.com/roms/Zelda%20II%20-%20The%20Adventure%20of%20Link%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-the-legend-of-zelda-2.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Metroid
+  downloadUri: https://downloads.gamulator.com/roms/Metroid%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-metroid.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: EarthBound
+  downloadUri: https://downloads.gamulator.com/roms/Earthbound%20(USA)%20(Proto).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/earthbound-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: 'Super Mario Bros. 3 '
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(Europe).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3-nes-cover.jpg
+  platform: nes
+  tags:
+  - (Europe)
+- name: Super Mario
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%20(Japan,%20USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-super-mario-bros.jpg
+  platform: nes
+  tags: []
+- name: The Legend of Zelda
+  downloadUri: https://downloads.gamulator.com/roms/Legend%20of%20Zelda,%20The%20(USA)%20(1).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-the-legend-of-zelda.jpg
+  platform: nes
+  tags:
+  - (1)
+  - (USA)
+- name: Super Mario Bros. 3
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Punch-Out!!
+  downloadUri: https://downloads.gamulator.com/roms/Mike%20Tyson's%20Punch-Out!!%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-mike-tysons-punch-out.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Super Mario Bros 3
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Super Mario World
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20World.zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-world-nes.jpg
+  platform: nes
+  tags: []
+- name: Kirby's Adventure
+  downloadUri: https://downloads.gamulator.com/roms/Kirby's%20Adventure%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/kirby's-adventure-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Contra
+  downloadUri: https://downloads.gamulator.com/roms/Contra%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-contra-thumb.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Super 700-in-1
+  downloadUri: https://downloads.gamulator.com/roms/Super%20700-in-1%20[!].zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-700-in-1-nes.jpg
+  platform: nes
+  tags:
+  - '[!]'
+- name: '1200-in-1 '
+  downloadUri: https://downloads.gamulator.com/roms/1200-in-1%20(J)%20[p1].zip
+  thumbnailUri: https://www.gamulator.com/img/roms/1200-in-1-nes.jpg
+  platform: nes
+  tags:
+  - '[p1]'
+  - (J)
+- name: Super Mario 2
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%202%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-super-mario-bros-2.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Pac - Man
+  downloadUri: https://downloads.gamulator.com/roms/Pac-Man%20(USA)%20(Namco).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/pac-man-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Tetris
+  downloadUri: https://downloads.gamulator.com/roms/Tetris%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-tetris.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Castlevania
+  downloadUri: https://downloads.gamulator.com/roms/Castlevania%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-castlevania.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Zelda 2
+  downloadUri: https://downloads.gamulator.com/roms/Zelda%20II%20-%20The%20Adventure%20of%20Link%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-the-legend-of-zelda-2.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Metroid
+  downloadUri: https://downloads.gamulator.com/roms/Metroid%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-metroid.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: EarthBound
+  downloadUri: https://downloads.gamulator.com/roms/Earthbound%20(USA)%20(Proto).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/earthbound-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: 'Super Mario Bros. '
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%20(Europe)%20(Rev%200A).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-eu-nes-cover.jpg
+  platform: nes
+  tags:
+  - (Europe)
+- name: Castlevania III - Dracula's Curse
+  downloadUri: https://downloads.gamulator.com/roms/Castlevania%20III%20-%20Dracula's%20Curse%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/castlevania-III-dracula's-curse-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: 'VS Super Mario Bros '
+  downloadUri: https://downloads.gamulator.com/roms/VS%20Super%20Mario%20Bros%20(VS).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/vs-super-mario-bros-vs-nes.jpg
+  platform: nes
+  tags: []
+- name: Street Fighter 3
+  downloadUri: https://downloads.gamulator.com/roms/Street%20Fighter%203.zip
+  thumbnailUri: https://www.gamulator.com/img/roms/street-fighter-3-nes.jpg
+  platform: nes
+  tags: []
+- name: '64-in-1 '
+  downloadUri: https://downloads.gamulator.com/roms/64-in-1%20(J)%20[p1].zip
+  thumbnailUri: https://www.gamulator.com/img/roms/64-in-1-japan-nes.jpg
+  platform: nes
+  tags:
+  - '[p1]'
+  - (J)
+- name: Chip 'n Dale Rescue Rangers
+  downloadUri: https://downloads.gamulator.com/roms/Chip%20'n%20Dale%20Rescue%20Rangers%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/chip'n-dale-rescue-rangers-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Duck Hunt
+  downloadUri: https://downloads.gamulator.com/roms/Duck%20Hunt%20(World).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/duck-hunt-nes-cover.jpg
+  platform: nes
+  tags: []
+- name: TMNT
+  downloadUri: https://downloads.gamulator.com/roms/Teenage%20Mutant%20Ninja%20Turtles%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-tmnt.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: 'Battle City '
+  downloadUri: https://downloads.gamulator.com/roms/Battle%20City%20(Japan).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/battle-city-japan-nes-cover.jpg
+  platform: nes
+  tags: []
+- name: Donkey Kong Classics
+  downloadUri: https://downloads.gamulator.com/roms/Donkey%20Kong%20Classics%20(USA,%20Europe).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/donkey-kong-classic-nes-cover.jpg
+  platform: nes
+  tags: []
+- name: Tiny Toon Adventures
+  downloadUri: https://downloads.gamulator.com/roms/Tiny%20Toon%20Adventures%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/tiny-toon-adventures-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Batman - The Video Game
+  downloadUri: https://downloads.gamulator.com/roms/Batman%20-%20The%20Video%20Game%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/batman-the-video-game-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Excitebike
+  downloadUri: https://downloads.gamulator.com/roms/Excitebike%20(Japan,%20USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/excitebike-nes-cover.jpg
+  platform: nes
+  tags: []
+- name: Castlevania II - Simon's Quest
+  downloadUri: https://downloads.gamulator.com/roms/Castlevania%20II%20-%20Simon's%20Quest%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/Castlevania-II-simon's-quest-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Mortal Kombat 3
+  downloadUri: https://downloads.gamulator.com/roms/Mortal%20Kombat%203.zip
+  thumbnailUri: https://www.gamulator.com/img/roms/mortal-kombat-3-cover-nes.jpg
+  platform: nes
+  tags: []
+- name: Dr. Mario
+  downloadUri: https://downloads.gamulator.com/roms/Dr.%20Mario%20(Japan,%20USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/dr-mario-nes-cover.jpg
+  platform: nes
+  tags: []
+- name: Mega Man
+  downloadUri: https://downloads.gamulator.com/roms/Mega%20Man%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-mega-man.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Kung Fu
+  downloadUri: https://downloads.gamulator.com/roms/Kung%20Fu%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/Kung-Fu-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: 'Super Mario Bros. 3 '
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(Europe).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3-nes-cover.jpg
+  platform: nes
+  tags:
+  - (Europe)
+- name: Super Mario
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%20(Japan,%20USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-super-mario-bros.jpg
+  platform: nes
+  tags: []
+- name: The Legend of Zelda
+  downloadUri: https://downloads.gamulator.com/roms/Legend%20of%20Zelda,%20The%20(USA)%20(1).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-the-legend-of-zelda.jpg
+  platform: nes
+  tags:
+  - (1)
+  - (USA)
+- name: Super Mario Bros. 3
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Punch-Out!!
+  downloadUri: https://downloads.gamulator.com/roms/Mike%20Tyson's%20Punch-Out!!%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-mike-tysons-punch-out.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Super Mario Bros 3
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Super Mario World
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20World.zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-world-nes.jpg
+  platform: nes
+  tags: []
+- name: Kirby's Adventure
+  downloadUri: https://downloads.gamulator.com/roms/Kirby's%20Adventure%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/kirby's-adventure-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Contra
+  downloadUri: https://downloads.gamulator.com/roms/Contra%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-contra-thumb.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Super 700-in-1
+  downloadUri: https://downloads.gamulator.com/roms/Super%20700-in-1%20[!].zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-700-in-1-nes.jpg
+  platform: nes
+  tags:
+  - '[!]'
+- name: '1200-in-1 '
+  downloadUri: https://downloads.gamulator.com/roms/1200-in-1%20(J)%20[p1].zip
+  thumbnailUri: https://www.gamulator.com/img/roms/1200-in-1-nes.jpg
+  platform: nes
+  tags:
+  - '[p1]'
+  - (J)
+- name: Super Mario 2
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%202%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-super-mario-bros-2.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Pac - Man
+  downloadUri: https://downloads.gamulator.com/roms/Pac-Man%20(USA)%20(Namco).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/pac-man-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Tetris
+  downloadUri: https://downloads.gamulator.com/roms/Tetris%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-tetris.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Castlevania
+  downloadUri: https://downloads.gamulator.com/roms/Castlevania%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-castlevania.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Zelda 2
+  downloadUri: https://downloads.gamulator.com/roms/Zelda%20II%20-%20The%20Adventure%20of%20Link%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-the-legend-of-zelda-2.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Metroid
+  downloadUri: https://downloads.gamulator.com/roms/Metroid%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-metroid.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: EarthBound
+  downloadUri: https://downloads.gamulator.com/roms/Earthbound%20(USA)%20(Proto).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/earthbound-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: 'Super Mario Bros. 3 '
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(Europe).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3-nes-cover.jpg
+  platform: nes
+  tags:
+  - (Europe)
+- name: Super Mario
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%20(Japan,%20USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-super-mario-bros.jpg
+  platform: nes
+  tags: []
+- name: The Legend of Zelda
+  downloadUri: https://downloads.gamulator.com/roms/Legend%20of%20Zelda,%20The%20(USA)%20(1).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-the-legend-of-zelda.jpg
+  platform: nes
+  tags:
+  - (1)
+  - (USA)
+- name: Super Mario Bros. 3
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Punch-Out!!
+  downloadUri: https://downloads.gamulator.com/roms/Mike%20Tyson's%20Punch-Out!!%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-mike-tysons-punch-out.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Super Mario Bros 3
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Super Mario World
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20World.zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-world-nes.jpg
+  platform: nes
+  tags: []
+- name: Kirby's Adventure
+  downloadUri: https://downloads.gamulator.com/roms/Kirby's%20Adventure%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/kirby's-adventure-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Contra
+  downloadUri: https://downloads.gamulator.com/roms/Contra%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-contra-thumb.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Super 700-in-1
+  downloadUri: https://downloads.gamulator.com/roms/Super%20700-in-1%20[!].zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-700-in-1-nes.jpg
+  platform: nes
+  tags:
+  - '[!]'
+- name: '1200-in-1 '
+  downloadUri: https://downloads.gamulator.com/roms/1200-in-1%20(J)%20[p1].zip
+  thumbnailUri: https://www.gamulator.com/img/roms/1200-in-1-nes.jpg
+  platform: nes
+  tags:
+  - '[p1]'
+  - (J)
+- name: Super Mario 2
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%202%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-super-mario-bros-2.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Pac - Man
+  downloadUri: https://downloads.gamulator.com/roms/Pac-Man%20(USA)%20(Namco).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/pac-man-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Tetris
+  downloadUri: https://downloads.gamulator.com/roms/Tetris%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-tetris.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Castlevania
+  downloadUri: https://downloads.gamulator.com/roms/Castlevania%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-castlevania.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Zelda 2
+  downloadUri: https://downloads.gamulator.com/roms/Zelda%20II%20-%20The%20Adventure%20of%20Link%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-the-legend-of-zelda-2.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Metroid
+  downloadUri: https://downloads.gamulator.com/roms/Metroid%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-metroid.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: EarthBound
+  downloadUri: https://downloads.gamulator.com/roms/Earthbound%20(USA)%20(Proto).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/earthbound-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: 'Super Mario Bros. 3 '
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(Europe).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3-nes-cover.jpg
+  platform: nes
+  tags:
+  - (Europe)
+- name: Super Mario
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%20(Japan,%20USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-super-mario-bros.jpg
+  platform: nes
+  tags: []
+- name: The Legend of Zelda
+  downloadUri: https://downloads.gamulator.com/roms/Legend%20of%20Zelda,%20The%20(USA)%20(1).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-the-legend-of-zelda.jpg
+  platform: nes
+  tags:
+  - (1)
+  - (USA)
+- name: Super Mario Bros. 3
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Punch-Out!!
+  downloadUri: https://downloads.gamulator.com/roms/Mike%20Tyson's%20Punch-Out!!%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-mike-tysons-punch-out.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Super Mario Bros 3
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Super Mario World
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20World.zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-world-nes.jpg
+  platform: nes
+  tags: []
+- name: Kirby's Adventure
+  downloadUri: https://downloads.gamulator.com/roms/Kirby's%20Adventure%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/kirby's-adventure-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Contra
+  downloadUri: https://downloads.gamulator.com/roms/Contra%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-contra-thumb.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Super 700-in-1
+  downloadUri: https://downloads.gamulator.com/roms/Super%20700-in-1%20[!].zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-700-in-1-nes.jpg
+  platform: nes
+  tags:
+  - '[!]'
+- name: '1200-in-1 '
+  downloadUri: https://downloads.gamulator.com/roms/1200-in-1%20(J)%20[p1].zip
+  thumbnailUri: https://www.gamulator.com/img/roms/1200-in-1-nes.jpg
+  platform: nes
+  tags:
+  - '[p1]'
+  - (J)
+- name: Super Mario 2
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%202%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-super-mario-bros-2.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Pac - Man
+  downloadUri: https://downloads.gamulator.com/roms/Pac-Man%20(USA)%20(Namco).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/pac-man-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Tetris
+  downloadUri: https://downloads.gamulator.com/roms/Tetris%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-tetris.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Castlevania
+  downloadUri: https://downloads.gamulator.com/roms/Castlevania%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-castlevania.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Zelda 2
+  downloadUri: https://downloads.gamulator.com/roms/Zelda%20II%20-%20The%20Adventure%20of%20Link%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-the-legend-of-zelda-2.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Metroid
+  downloadUri: https://downloads.gamulator.com/roms/Metroid%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-metroid.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: EarthBound
+  downloadUri: https://downloads.gamulator.com/roms/Earthbound%20(USA)%20(Proto).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/earthbound-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: 'Super Mario Bros. '
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%20(Europe)%20(Rev%200A).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-eu-nes-cover.jpg
+  platform: nes
+  tags:
+  - (Europe)
+- name: Castlevania III - Dracula's Curse
+  downloadUri: https://downloads.gamulator.com/roms/Castlevania%20III%20-%20Dracula's%20Curse%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/castlevania-III-dracula's-curse-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: 'VS Super Mario Bros '
+  downloadUri: https://downloads.gamulator.com/roms/VS%20Super%20Mario%20Bros%20(VS).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/vs-super-mario-bros-vs-nes.jpg
+  platform: nes
+  tags: []
+- name: Street Fighter 3
+  downloadUri: https://downloads.gamulator.com/roms/Street%20Fighter%203.zip
+  thumbnailUri: https://www.gamulator.com/img/roms/street-fighter-3-nes.jpg
+  platform: nes
+  tags: []
+- name: '64-in-1 '
+  downloadUri: https://downloads.gamulator.com/roms/64-in-1%20(J)%20[p1].zip
+  thumbnailUri: https://www.gamulator.com/img/roms/64-in-1-japan-nes.jpg
+  platform: nes
+  tags:
+  - '[p1]'
+  - (J)
+- name: Chip 'n Dale Rescue Rangers
+  downloadUri: https://downloads.gamulator.com/roms/Chip%20'n%20Dale%20Rescue%20Rangers%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/chip'n-dale-rescue-rangers-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Duck Hunt
+  downloadUri: https://downloads.gamulator.com/roms/Duck%20Hunt%20(World).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/duck-hunt-nes-cover.jpg
+  platform: nes
+  tags: []
+- name: TMNT
+  downloadUri: https://downloads.gamulator.com/roms/Teenage%20Mutant%20Ninja%20Turtles%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-tmnt.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: 'Battle City '
+  downloadUri: https://downloads.gamulator.com/roms/Battle%20City%20(Japan).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/battle-city-japan-nes-cover.jpg
+  platform: nes
+  tags: []
+- name: Donkey Kong Classics
+  downloadUri: https://downloads.gamulator.com/roms/Donkey%20Kong%20Classics%20(USA,%20Europe).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/donkey-kong-classic-nes-cover.jpg
+  platform: nes
+  tags: []
+- name: Tiny Toon Adventures
+  downloadUri: https://downloads.gamulator.com/roms/Tiny%20Toon%20Adventures%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/tiny-toon-adventures-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Batman - The Video Game
+  downloadUri: https://downloads.gamulator.com/roms/Batman%20-%20The%20Video%20Game%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/batman-the-video-game-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Excitebike
+  downloadUri: https://downloads.gamulator.com/roms/Excitebike%20(Japan,%20USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/excitebike-nes-cover.jpg
+  platform: nes
+  tags: []
+- name: Castlevania II - Simon's Quest
+  downloadUri: https://downloads.gamulator.com/roms/Castlevania%20II%20-%20Simon's%20Quest%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/Castlevania-II-simon's-quest-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Mortal Kombat 3
+  downloadUri: https://downloads.gamulator.com/roms/Mortal%20Kombat%203.zip
+  thumbnailUri: https://www.gamulator.com/img/roms/mortal-kombat-3-cover-nes.jpg
+  platform: nes
+  tags: []
+- name: Dr. Mario
+  downloadUri: https://downloads.gamulator.com/roms/Dr.%20Mario%20(Japan,%20USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/dr-mario-nes-cover.jpg
+  platform: nes
+  tags: []
+- name: Mega Man
+  downloadUri: https://downloads.gamulator.com/roms/Mega%20Man%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-mega-man.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Kung Fu
+  downloadUri: https://downloads.gamulator.com/roms/Kung%20Fu%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/Kung-Fu-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: 'Super Mario Bros. 3 '
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(Europe).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3-nes-cover.jpg
+  platform: nes
+  tags:
+  - (Europe)
+- name: Super Mario
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%20(Japan,%20USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-super-mario-bros.jpg
+  platform: nes
+  tags: []
+- name: The Legend of Zelda
+  downloadUri: https://downloads.gamulator.com/roms/Legend%20of%20Zelda,%20The%20(USA)%20(1).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-the-legend-of-zelda.jpg
+  platform: nes
+  tags:
+  - (1)
+  - (USA)
+- name: Super Mario Bros. 3
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Punch-Out!!
+  downloadUri: https://downloads.gamulator.com/roms/Mike%20Tyson's%20Punch-Out!!%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-mike-tysons-punch-out.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Super Mario Bros 3
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%203%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-3.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Super Mario World
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20World.zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-world-nes.jpg
+  platform: nes
+  tags: []
+- name: Kirby's Adventure
+  downloadUri: https://downloads.gamulator.com/roms/Kirby's%20Adventure%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/kirby's-adventure-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Contra
+  downloadUri: https://downloads.gamulator.com/roms/Contra%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-contra-thumb.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Super 700-in-1
+  downloadUri: https://downloads.gamulator.com/roms/Super%20700-in-1%20[!].zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-700-in-1-nes.jpg
+  platform: nes
+  tags:
+  - '[!]'
+- name: '1200-in-1 '
+  downloadUri: https://downloads.gamulator.com/roms/1200-in-1%20(J)%20[p1].zip
+  thumbnailUri: https://www.gamulator.com/img/roms/1200-in-1-nes.jpg
+  platform: nes
+  tags:
+  - '[p1]'
+  - (J)
+- name: Super Mario 2
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%202%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-super-mario-bros-2.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Pac - Man
+  downloadUri: https://downloads.gamulator.com/roms/Pac-Man%20(USA)%20(Namco).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/pac-man-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Tetris
+  downloadUri: https://downloads.gamulator.com/roms/Tetris%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-tetris.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Castlevania
+  downloadUri: https://downloads.gamulator.com/roms/Castlevania%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-castlevania.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Zelda 2
+  downloadUri: https://downloads.gamulator.com/roms/Zelda%20II%20-%20The%20Adventure%20of%20Link%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-the-legend-of-zelda-2.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Metroid
+  downloadUri: https://downloads.gamulator.com/roms/Metroid%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-metroid.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: EarthBound
+  downloadUri: https://downloads.gamulator.com/roms/Earthbound%20(USA)%20(Proto).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/earthbound-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: 'Super Mario Bros. '
+  downloadUri: https://downloads.gamulator.com/roms/Super%20Mario%20Bros.%20(Europe)%20(Rev%200A).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/super-mario-bros-eu-nes-cover.jpg
+  platform: nes
+  tags:
+  - (Europe)
+- name: Castlevania III - Dracula's Curse
+  downloadUri: https://downloads.gamulator.com/roms/Castlevania%20III%20-%20Dracula's%20Curse%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/castlevania-III-dracula's-curse-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: 'VS Super Mario Bros '
+  downloadUri: https://downloads.gamulator.com/roms/VS%20Super%20Mario%20Bros%20(VS).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/vs-super-mario-bros-vs-nes.jpg
+  platform: nes
+  tags: []
+- name: Street Fighter 3
+  downloadUri: https://downloads.gamulator.com/roms/Street%20Fighter%203.zip
+  thumbnailUri: https://www.gamulator.com/img/roms/street-fighter-3-nes.jpg
+  platform: nes
+  tags: []
+- name: '64-in-1 '
+  downloadUri: https://downloads.gamulator.com/roms/64-in-1%20(J)%20[p1].zip
+  thumbnailUri: https://www.gamulator.com/img/roms/64-in-1-japan-nes.jpg
+  platform: nes
+  tags:
+  - '[p1]'
+  - (J)
+- name: Chip 'n Dale Rescue Rangers
+  downloadUri: https://downloads.gamulator.com/roms/Chip%20'n%20Dale%20Rescue%20Rangers%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/chip'n-dale-rescue-rangers-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Duck Hunt
+  downloadUri: https://downloads.gamulator.com/roms/Duck%20Hunt%20(World).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/duck-hunt-nes-cover.jpg
+  platform: nes
+  tags: []
+- name: TMNT
+  downloadUri: https://downloads.gamulator.com/roms/Teenage%20Mutant%20Ninja%20Turtles%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-tmnt.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: 'Battle City '
+  downloadUri: https://downloads.gamulator.com/roms/Battle%20City%20(Japan).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/battle-city-japan-nes-cover.jpg
+  platform: nes
+  tags: []
+- name: Donkey Kong Classics
+  downloadUri: https://downloads.gamulator.com/roms/Donkey%20Kong%20Classics%20(USA,%20Europe).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/donkey-kong-classic-nes-cover.jpg
+  platform: nes
+  tags: []
+- name: Tiny Toon Adventures
+  downloadUri: https://downloads.gamulator.com/roms/Tiny%20Toon%20Adventures%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/tiny-toon-adventures-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Batman - The Video Game
+  downloadUri: https://downloads.gamulator.com/roms/Batman%20-%20The%20Video%20Game%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/batman-the-video-game-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Excitebike
+  downloadUri: https://downloads.gamulator.com/roms/Excitebike%20(Japan,%20USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/excitebike-nes-cover.jpg
+  platform: nes
+  tags: []
+- name: Castlevania II - Simon's Quest
+  downloadUri: https://downloads.gamulator.com/roms/Castlevania%20II%20-%20Simon's%20Quest%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/Castlevania-II-simon's-quest-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Mortal Kombat 3
+  downloadUri: https://downloads.gamulator.com/roms/Mortal%20Kombat%203.zip
+  thumbnailUri: https://www.gamulator.com/img/roms/mortal-kombat-3-cover-nes.jpg
+  platform: nes
+  tags: []
+- name: Dr. Mario
+  downloadUri: https://downloads.gamulator.com/roms/Dr.%20Mario%20(Japan,%20USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/dr-mario-nes-cover.jpg
+  platform: nes
+  tags: []
+- name: Mega Man
+  downloadUri: https://downloads.gamulator.com/roms/Mega%20Man%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/nes-mega-man.jpg
+  platform: nes
+  tags:
+  - (USA)
+- name: Kung Fu
+  downloadUri: https://downloads.gamulator.com/roms/Kung%20Fu%20(USA).zip
+  thumbnailUri: https://www.gamulator.com/img/roms/Kung-Fu-nes-cover.jpg
+  platform: nes
+  tags:
+  - (USA)

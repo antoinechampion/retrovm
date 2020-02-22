@@ -24,7 +24,7 @@ namespace RetroVm.Server
             var sp = ConfigureServices();
             var myClass = sp.GetService<RepositoryBuilder>();
 
-            myClass.BuildUsingAggregators().Wait();
+            myClass.BuildUsingAggregators("E:\\Prog\\C#\\retrovm").Wait();
         }
     }
 }
