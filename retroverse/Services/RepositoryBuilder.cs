@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
+using Retroverse.Aggregators;
 
 namespace RetroVm.Server.Services
 {
@@ -19,20 +20,30 @@ namespace RetroVm.Server.Services
             _logger = logger;
         }
 
-        public async Task BuildUsingAggregators(string outFolderPath, bool useGamulator = true)
+        public void BuildUsingAggregators(
+            string outFolderPath, 
+            bool useGamulator = true,
+            bool useRomsmode = true,
+            bool useEmulatorgames = true)
         {
             _aggregators.Clear();
+
             if (useGamulator)
             {
-                var outPath = Path.Combine(outFolderPath, "gamulator.yml");
-                _aggregators.Add(new GamulatorAggregator(outPath));
+                _aggregators.Add(new GamulatorAggregator(outFolderPath));
+            }
+            if (useRomsmode)
+            {
+                _aggregators.Add(new RomsmodeAggregator(outFolderPath));
+            }
+            if (useEmulatorgames)
+            {
+                _aggregators.Add(new EmulatorgamesAggregator(outFolderPath));
             }
 
             _logger.LogInformation("Starting aggregation...");
-            foreach (var aggregator in _aggregators)
-            {
-               await aggregator.AggregateAllGames(_logger);
-            }
+
+            Task.WaitAll(_aggregators.Select(aggregator => aggregator.AggregateAllGames(_logger)).ToArray());
         }
     }
 }

@@ -138,7 +138,7 @@ namespace RetroVm.Core
             {
                 CommonName = "Japan",
                 Priority = 0,
-                RegexPattern = new Regex(@"\(J\)")
+                RegexPattern = new Regex(@"\((?:J|Jap|JAP|Japan)\)", RegexOptions.IgnoreCase)
             };
         public static RomTag Brazil { get; set; }
             = new RomTag
@@ -173,7 +173,7 @@ namespace RetroVm.Core
             {
                 CommonName = "Europe",
                 Priority = 0,
-                RegexPattern = new Regex(@"\((?:E|EU|Europe)\)")
+                RegexPattern = new Regex(@"\((?:E|EU|Europe)\)", RegexOptions.IgnoreCase)
             };
         public static RomTag France { get; set; }
             = new RomTag
@@ -215,7 +215,7 @@ namespace RetroVm.Core
             {
                 CommonName = "USA",
                 Priority = 0,
-                RegexPattern = new Regex(@"\((?:U|USA)\)")
+                RegexPattern = new Regex(@"\((?:U|USA|US|America)\)", RegexOptions.IgnoreCase)
             };
         public static RomTag Germany { get; set; }
             = new RomTag
@@ -265,7 +265,7 @@ namespace RetroVm.Core
                 Usa, Germany, England, Greece, HongKong, Italy
             };
 
-        public static Regex AnyTag { get; } = new Regex(@"[\(\[].*?[\)\]]");
+        public static Regex AnyTag { get; } = new Regex(@"[\(\[][^\)\]]+[\)\]]");
 
         public static void TryAssignTags(Game game, string strWithTags)
         {
@@ -277,11 +277,13 @@ namespace RetroVm.Core
                     game.Tags.AddRange(matches.Select(m => m.Value));
                 }
             }
+
+            game.Tags = game.Tags.Distinct().ToList();
         }
 
         public static string RemoveTagsFromString(string strWithTags)
         {
-            return AnyTag.Replace(strWithTags, "");
+            return AnyTag.Replace(strWithTags, "").Trim();
         }
     }
 }

@@ -37,7 +37,7 @@ namespace RetroVm.Core
             return t;
         }
 
-        public static void ToYaml<T>(string path, IEnumerable<T> content, bool append = true) 
+        public static void ToYaml<T>(string path, IEnumerable<T> content, bool append = false) 
             where T : ISerializable
         {
             try
