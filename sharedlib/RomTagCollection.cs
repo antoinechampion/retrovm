@@ -267,18 +267,15 @@ namespace RetroVm.Core
 
         public static Regex AnyTag { get; } = new Regex(@"[\(\[][^\)\]]+[\)\]]");
 
-        public static void TryAssignTags(Game game, string strWithTags)
+        public static void TryAssignTags(GameMirror gameMirror, string strWithTags)
         {
-            foreach (var tag in AllTags)
+            var matches = AnyTag.Matches(strWithTags);
+            if (matches.Count > 0)
             {
-                var matches = tag.RegexPattern.Matches(strWithTags);
-                if (matches.Count > 0)
-                {
-                    game.Tags.AddRange(matches.Select(m => m.Value));
-                }
+                gameMirror.Tags.AddRange(matches.Select(m => m.Value));
             }
 
-            game.Tags = game.Tags.Distinct().ToList();
+            gameMirror.Tags = gameMirror.Tags.Distinct().ToList();
         }
 
         public static string RemoveTagsFromString(string strWithTags)

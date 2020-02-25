@@ -21,11 +21,12 @@ namespace RetroVm.Server.Services
         }
 
         public void BuildUsingAggregators(
-            string outFolderPath, 
+            string outRepoPath, 
             bool useGamulator = true,
             bool useRomsmode = true,
             bool useEmulatorgames = true)
         {
+            var outFolderPath = Path.Combine(outRepoPath, "aggregated/");
             _aggregators.Clear();
 
             if (useGamulator)
@@ -43,7 +44,24 @@ namespace RetroVm.Server.Services
 
             _logger.LogInformation("Starting aggregation...");
 
-            Task.WaitAll(_aggregators.Select(aggregator => aggregator.AggregateAllGames(_logger)).ToArray());
+            // Task.WaitAll(_aggregators.Select(aggregator => aggregator.AggregateAllGames(_logger)).ToArray());
+
+            CreateRepo(outFolderPath, outRepoPath);
+        }
+
+
+        public void CreateRepo(string aggregatedFolderPath, string repoPath)
+        {
+            var allPlatforms = 
+            MapReduce
+                .LoadAggregated(aggregatedFolderPath)
+                .IterateByPlatform()
+                .Select(o => o.RegroupMirrors());
+
+            foreach (var platform in allPlatforms)
+            {
+                platform.ExportYaml(repoPath);
+            }
         }
     }
 }

@@ -80,9 +80,9 @@ namespace Retroverse.Aggregators
             return newPageUri;
         }
 
-        private Game ScrapSingleGame(HtmlNode node)
+        private GameMirror ScrapSingleGame(HtmlNode node)
         {
-            var currentGame = new Game();
+            var currentGame = new GameMirror();
 
             var gameName =
                 node.SelectSingleNode(".//h5[@class='card-title']")
@@ -129,23 +129,23 @@ namespace Retroverse.Aggregators
         }
 
         /// <inheritdoc />
-        protected override IEnumerable<Game> GetGamesOnPage(string currentPageHtml)
+        protected override IEnumerable<GameMirror> GetGamesOnPage(string currentPageHtml)
         {
             var doc = new HtmlDocument();
             doc.LoadHtml(currentPageHtml);
             var gameNodes = doc.DocumentNode.SelectNodes("//div[@class='card']");
             foreach (var node in gameNodes)
             {
-                Game currentGame;
+                GameMirror currentGameMirror;
                 try
                 {
-                    currentGame = ScrapSingleGame(node);
+                    currentGameMirror = ScrapSingleGame(node);
                 }
                 catch
                 {
                     continue;
                 }
-                yield return currentGame;
+                yield return currentGameMirror;
             }
         }
     }

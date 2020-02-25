@@ -131,7 +131,7 @@ namespace Retroverse.Aggregators
         private readonly string _outFolderPath; 
 
         protected abstract string GetNextPageUri(string currentPageUri, string platformName);
-        protected abstract IEnumerable<Game> GetGamesOnPage(string currentPageHtml);
+        protected abstract IEnumerable<GameMirror> GetGamesOnPage(string currentPageHtml);
         protected abstract string GetUriForPlatform(string platformName);
 
         protected Aggregator(string baseUri, Dictionary<string, string> platforms, string outFolderPath)
@@ -179,7 +179,7 @@ namespace Retroverse.Aggregators
             } while (currentPageHtml != null);
         }
 
-        protected void LogGamesInfo(ILogger logger, List<Game> games, string uri)
+        protected void LogGamesInfo(ILogger logger, List<GameMirror> games, string uri)
         {
             var logStr = $"GET {uri}\n";
             var maxLenName = games.Max(o => o.Name.Length);

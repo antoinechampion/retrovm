@@ -142,9 +142,9 @@ namespace Retroverse.Aggregators
             return newPageUri;
         }
 
-        private Game ScrapSingleGame(HtmlNode node, string pageUri)
+        private GameMirror ScrapSingleGame(HtmlNode node, string pageUri)
         {
-            var currentGame = new Game();
+            var currentGame = new GameMirror();
 
             var gameName =
                 node.SelectSingleNode("//h1[@itemprop='name']")
@@ -184,14 +184,14 @@ namespace Retroverse.Aggregators
         }
 
         /// <inheritdoc />
-        protected override IEnumerable<Game> GetGamesOnPage(string currentPageHtml)
+        protected override IEnumerable<GameMirror> GetGamesOnPage(string currentPageHtml)
         {
             var doc = new HtmlDocument();
             doc.LoadHtml(currentPageHtml);
             var gameNodes = doc.DocumentNode.SelectNodes("//div[@id='roms-results']//table//td//a");
             foreach (var node in gameNodes)
             {
-                Game currentGame;
+                GameMirror currentGameMirror;
                 try
                 {
                     var gamePageUri =
@@ -200,13 +200,13 @@ namespace Retroverse.Aggregators
                     var gamePageHtml = RequestGet(gamePageUri).Result;
                     var gamePageDoc = new HtmlDocument();
                     gamePageDoc.LoadHtml(gamePageHtml);
-                    currentGame = ScrapSingleGame(gamePageDoc.DocumentNode, gamePageUri);
+                    currentGameMirror = ScrapSingleGame(gamePageDoc.DocumentNode, gamePageUri);
                 }
                 catch
                 {
                     continue;
                 }
-                yield return currentGame;
+                yield return currentGameMirror;
             }
         }
     }
